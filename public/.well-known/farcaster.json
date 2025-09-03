@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Todosocial100",
+    "subtitle": "Built with Zara",
+    "description": "Todosocial100 is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://todosocial100-93ua-9touw7567-vistara.vercel.app",
+    "splashImageUrl": "https://todosocial100-93ua-9touw7567-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://todosocial100-93ua-9touw7567-vistara.vercel.app/image.png",
+    "tagline": "Todosocial100",
+    "screenshotUrls": [
+      "https://todosocial100-93ua-9touw7567-vistara.vercel.app/screenshot.png",
+      "https://todosocial100-93ua-9touw7567-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://todosocial100-93ua-9touw7567-vistara.vercel.app/api/webhook"
+  }
+}
