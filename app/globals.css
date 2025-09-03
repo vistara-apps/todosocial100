@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full;
+  }
+  
+  body {
+    @apply h-full bg-gradient-to-br from-red-400 via-pink-500 to-purple-600 font-sans;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply backdrop-blur-lg bg-white/20 border border-white/30;
+  }
+  
+  .todo-card {
+    @apply rounded-2xl p-4 shadow-xl;
+    background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
+  .progress-bar {
+    @apply h-3 rounded-full overflow-hidden shadow-inner;
+  }
+  
+  .progress-fill {
+    @apply h-full transition-all duration-500 ease-out;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+}
